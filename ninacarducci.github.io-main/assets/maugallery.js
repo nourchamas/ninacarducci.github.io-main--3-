@@ -230,7 +230,7 @@
       });
       var tagsRow = `<ul class="my-4 tags-bar nav nav-pills">${tagItems}</ul>`;
 
-      if (position === "bottom") {
+      if (position === "bottom")  {
         gallery.append(tagsRow);
       } else if (position === "top") {
         gallery.prepend(tagsRow);
@@ -263,4 +263,5 @@
       });
     }
   };
+  
 })(jQuery);
