@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    
     $('.gallery').mauGallery({
         columns: {
             xs: 1,
@@ -7,9 +8,11 @@ $(document).ready(function() {
             lg: 3,
             xl: 3
         },
+
         lightBox: true,
-        lightboxId: 'myAwesomeLightbox',
+        lightboxId:'myAwesomeLightbox',
         showTags: true,
         tagsPosition: 'top'
+
     });
 });
