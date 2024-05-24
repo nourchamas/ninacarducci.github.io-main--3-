@@ -218,8 +218,8 @@
                             }
                         </div>
                     </div>
-                </div>
-            </div>`);
+                </div> </div>`);
+           
     },
     showItemTags(gallery, position, tags) {
       var tagItems =
@@ -263,5 +263,5 @@
       });
     }
   };
-  
+
 })(jQuery);
